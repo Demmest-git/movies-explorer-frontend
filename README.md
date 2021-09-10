@@ -1,1 +1,1 @@
-# movies-explorer-frontend
+верстка и JSX дипломного проекта
