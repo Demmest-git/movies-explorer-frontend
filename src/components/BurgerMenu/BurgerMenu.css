@@ -7,6 +7,10 @@
   cursor: pointer;
 }
 
+.burger-menu__link_active {
+  border-bottom: 2px solid #fff;
+}
+
 .burger-menu {
   display: flex;
   position:fixed;

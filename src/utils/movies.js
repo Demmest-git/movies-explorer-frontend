@@ -7,7 +7,19 @@ const moviesArray = [
     picture: picture,
     title,
     time,
+    isSaved: true
+  },
+  {
+    picture: picture,
+    title,
+    time,
     isSaved: false
+  },
+  {
+    picture: picture,
+    title,
+    time,
+    isSaved: true
   },
   {
     picture: picture,
@@ -43,13 +55,7 @@ const moviesArray = [
     picture: picture,
     title,
     time,
-    isSaved: false
-  },
-  {
-    picture: picture,
-    title,
-    time,
-    isSaved: false
+    isSaved: true
   },
   {
     picture: picture,
@@ -62,12 +68,6 @@ const moviesArray = [
     title,
     time,
     isSaved: true
-  },
-  {
-    picture: picture,
-    title,
-    time,
-    isSaved: false
   },
   {
     picture: picture,
