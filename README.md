@@ -1,1 +1,1 @@
-верстка и JSX дипломного проекта
+Проект находится по адресу https://demmest.movies.nomoredomains.work/movies
