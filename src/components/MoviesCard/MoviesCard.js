@@ -28,21 +28,20 @@ function MoviesCard(props) {
           <a className="card__title" target="_blank" href={movie.trailerLink || movie.trailer} rel="noreferrer">{movie.nameRU}</a>
           <p className="card__time">{time}</p>
         </div>
-      </div>
-
-      {pathname === "/movies" ? (
+        {pathname === "/movies" ? (
         <button
           onClick={handleCardButtonClick}
           className={`card__button ${
             movie.isSaved ? "card__button_saved" : ""
           }`}
         />
-      ) : (
-        <button
-          className="card__button card__button_delete"
-          onClick={handleCardButtonClick}
-        />
-      )}
+        ) : (
+          <button
+            className="card__button card__button_delete"
+            onClick={handleCardButtonClick}
+          />
+        )}
+      </div>
 
       <a
         href={movie.trailerLink || movie.trailer}
